@@ -17,6 +17,30 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
 
+// --- Infinite ticker ---
+    const tickerItems = document.getElementById('tickerItems');
+    const tickerTrack = document.getElementById('tickerTrack');
+    if (tickerItems && tickerTrack) {
+        // Клонируем 3 раза чтобы точно хватило на любой экран
+        tickerTrack.appendChild(tickerItems.cloneNode(true));
+        tickerTrack.appendChild(tickerItems.cloneNode(true));
+        tickerTrack.appendChild(tickerItems.cloneNode(true));
+
+        let pos = 0;
+        const speed = 0.5;
+        const itemWidth = tickerItems.scrollWidth;
+
+        function tickerLoop() {
+            pos -= speed;
+            if (Math.abs(pos) >= itemWidth) {
+                pos += itemWidth;
+            }
+            tickerTrack.style.transform = `translateX(${pos}px)`;
+            requestAnimationFrame(tickerLoop);
+        }
+        requestAnimationFrame(tickerLoop);
+    }
+
     // --- Burger menu ---
     const burger = document.getElementById('burger');
     const mobileMenu = document.getElementById('mobileMenu');
