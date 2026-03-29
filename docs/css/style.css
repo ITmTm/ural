@@ -483,14 +483,14 @@ ul {
 
 .ticker__track {
   display: flex;
-  overflow: hidden;
 }
 
 .ticker__items {
   display: flex;
   gap: 12px;
   white-space: nowrap;
-  animation: tickerScroll 25s linear infinite;
+  flex-shrink: 0;
+  padding-right: 12px;
 }
 
 .ticker__item {
@@ -508,14 +508,7 @@ ul {
   opacity: 0.5;
 }
 
-@keyframes tickerScroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
+
 
 /* ===========================
    SECTION HEADER
