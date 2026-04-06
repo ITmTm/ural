@@ -1,0 +1,25 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+
+  a {
+    color: var(--c-text-muted);
+    transition: color var(--duration) var(--ease);
+  }
+
+  &__sep {
+    color: var(--c-text-muted);
+    opacity: 0.4;
+  }
+
+  &__current {
+    color: var(--c-text);
+  }
+}
