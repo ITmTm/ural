@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+  .privacy-page {
+    .breadcrumbs {
+      margin: 20px 0;
+    }
+  }
+
+  .hero {
+    background: url('../img/hero-mini.avif') center/cover no-repeat;
+
+    &::before {
+      content: none;
+    }
+
+    &__content {
+      padding: 120px 24px 60px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+  }
+
+
+  .advantages {
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+  }
+
+  .conditions {
+    &__grid {
+      grid-template-columns: 1fr;
+      max-width: 400px;
+    }
+  }
+
+  .condition-card {
+    &--popular {
+      order: -1;
+    }
+  }
+
+  .contacts {
+    &__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .team {
+    &__grid {
+      grid-template-columns: 1fr;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+  }
+
+  .footer {
+    &__inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      text-align: center;
+    }
+
+    &__info {
+      text-align: center;
+      order: 3;
+    }
+
+    &__socials {
+      order: 2;
+    }
+
+    &__logo {
+      order: 1;
+    }
+  }
+
+  .cta-banner {
+    &__inner {
+      margin: 0 16px;
+      padding: 40px 24px;
+    }
+  }
+
+  .floating-cta {
+    bottom: 20px;
+    right: 20px;
+
+    &__btn {
+      width: 54px;
+      height: 54px;
+    }
+  }
+
+  .contacts {
+    &__phone {
+      font-size: 22px;
+    }
+  }
+
+  .privacy-page {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+}
