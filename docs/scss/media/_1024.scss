@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+  .header {
+    &__nav {
+      display: none;
+    }
+
+    &__burger {
+      display: flex;
+    }
+  }
+
+  .advantages {
+    &__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .team {
+    &__grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  }
+
+  .cta-banner {
+    &__inner {
+      flex-direction: column;
+      text-align: center;
+      padding: 48px 32px;
+    }
+
+    &__content {
+      max-width: 100%;
+    }
+  }
+}
