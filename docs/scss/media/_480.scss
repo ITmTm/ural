@@ -1,0 +1,68 @@
+@media (max-width: 480px) {
+  .hero {
+    &__actions {
+      flex-direction: column;
+      margin-bottom: 20px;
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    &__scroll {
+      bottom: 15px;
+    }
+  }
+
+  .hero__actions,
+  .hero__messengers {
+    justify-content: center;
+  }
+
+  .hero
+  .how {
+    &__steps {
+      &::before {
+        left: 22px;
+      }
+    }
+
+    &__step {
+      gap: 18px;
+
+      &-number {
+        width: 46px;
+        height: 46px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .cookies {
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    padding: 20px;
+
+    &__btns {
+      flex-direction: column;
+    }
+
+    &_btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .page-404 {
+    &__actions {
+      flex-direction: column;
+    }
+  }
+
+  .btn-404 {
+    width: 100%;
+    justify-content: center;
+  }
+}
