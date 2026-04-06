@@ -1,0 +1,117 @@
+.conditions {
+  padding: 70px 0;
+  background: var(--c-white);
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+
+.condition-card {
+  background: var(--c-light);
+  border-radius: var(--radius);
+  padding: 40px 32px;
+  border: 2px solid var(--c-border-light);
+  text-align: center;
+  position: relative;
+  transition: all 0.4s var(--ease);
+
+  &--popular {
+    background: var(--c-dark);
+    border-color: var(--c-accent);
+    box-shadow: 0 0 60px var(--c-accent-glow);
+  }
+
+  &__badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--c-accent);
+    color: var(--c-dark);
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  &__header {
+    margin-bottom: 28px;
+  }
+
+  &__label {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--c-text-muted);
+    margin-bottom: 8px;
+  }
+
+  &__price {
+    font-family: var(--f-heading);
+    font-size: 56px;
+    font-weight: 900;
+    color: var(--c-text);
+    line-height: 1;
+  }
+
+  &__price span {
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  &__period {
+    font-size: 14px;
+    color: var(--c-text-muted);
+    margin-top: 4px;
+  }
+
+  &__features {
+    margin-bottom: 28px;
+    text-align: left;
+
+    li::before {
+      content: '✓';
+      color: var(--c-accent);
+      font-weight: 700;
+      font-size: 14px;
+    }
+  }
+}
+
+
+.condition-card--popular .condition-card__label {
+  color: var(--c-accent);
+}
+
+.condition-card--popular .condition-card__price {
+  color: var(--c-white);
+}
+
+.condition-card--popular .condition-card__period {
+  color: var(--c-text-light);
+}
+
+.condition-card--popular .condition-card__features li {
+  color: rgba(255, 255, 255, 0.8);
+  border-color: var(--c-border);
+}
+
+.condition-card,
+.condition-card__features li {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--c-border-light);
+  font-size: 14px;
+  color: var(--c-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
