@@ -1,0 +1,30 @@
+.floating-cta {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 900;
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none;
+  transition: all var(--duration) var(--ease);
+
+  .visible {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: all;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: var(--c-accent);
+    color: var(--c-dark);
+    box-shadow: 0 8px 30px var(--c-accent-glow);
+    transition: all var(--duration) var(--ease);
+    animation: pulse 2s infinite;
+  }
+}
