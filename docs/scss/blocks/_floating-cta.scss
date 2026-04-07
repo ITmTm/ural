@@ -8,7 +8,7 @@
   pointer-events: none;
   transition: all var(--duration) var(--ease);
 
-  .visible {
+  &.visible {
     opacity: 1;
     transform: scale(1);
     pointer-events: all;
