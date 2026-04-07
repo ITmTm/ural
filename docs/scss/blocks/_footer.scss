@@ -10,12 +10,10 @@
     gap: 24px;
   }
 
-  &__logo {
-    &-img {
-      height: 70px;
-      width: auto;
-      border-radius: 4px;
-    }
+  &__logo-img {
+    height: 70px;
+    width: auto;
+    border-radius: 4px;
   }
 
   &__copy {
@@ -32,14 +30,12 @@
     padding-bottom: 20px;
   }
 
-  &__privacy {
-    &-link {
-      font-size: 13px;
-      color: rgba(255, 255, 255, 0.4);
-      transition: color var(--duration) var(--ease);
-      text-align: left;
-      display: block;
-    }
+  &__privacy-link {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.4);
+    transition: color var(--duration) var(--ease);
+    text-align: left;
+    display: block;
   }
 
   &__socials {
