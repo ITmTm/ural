@@ -1,172 +1,119 @@
-.header {
-  &__link:hover {
-    color: var(--c-white);
-    background: rgba(255, 255, 255, 0.08);
-  }
-
-  &__cta:hover {
-    background: var(--c-accent-hover);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 20px var(--c-accent-glow);
-  }
+.btn--primary:hover {
+  background: var(--c-accent-hover);
+  border-color: var(--c-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--c-accent-glow);
 }
 
-.mobile-menu {
-  &__link:hover {
-    color: var(--c-accent);
-  }
+.btn--outline:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
 }
 
-.hero {
-  &__messenger:hover {
-    background: rgba(245, 158, 11, 0.2);
-    border-color: var(--c-accent);
-    color: var(--c-accent);
-    transform: translateY(-3px);
-  }
+.btn--white:hover {
+  background: var(--c-light);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
 }
 
-.advantage {
-  &-card {
-    &:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
-      border-color: rgba(245, 158, 11, 0.2);
-
-      &::before {
-        transform: scaleX(1);
-      }
-    }
-  }
+.header__link:hover {
+  color: var(--c-white);
+  background: rgba(255, 255, 255, 0.08);
 }
 
-.condition {
-  &-card {
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
-    }
-  }
+.header__cta:hover {
+  background: var(--c-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 20px var(--c-accent-glow);
 }
 
-.faq {
-  &__question {
-    &:hover {
-      color: var(--c-accent);
-    }
-  }
+.mobile-menu__link:hover {
+  color: var(--c-accent);
 }
 
-.team {
-  &__card {
-    &:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
-    }
-  }
+.hero__messenger:hover,
+.cta-banner__msg:hover,
+.footer__socials a:hover {
+  background: rgba(245, 158, 11, 0.2);
+  border-color: var(--c-accent);
+  color: var(--c-accent);
 }
 
-.cta-banner {
-  &__msg {
-    :hover {
-      background: rgba(245, 158, 11, 0.2);
-      border-color: var(--c-accent);
-      color: var(--c-accent);
-      transform: translateY(-3px);
-    }
-  }
+.hero__messenger:hover,
+.cta-banner__msg:hover {
+  transform: translateY(-3px);
 }
 
-.contacts {
-  &__phone {
-    &:hover {
-      color: var(--c-accent);
-    }
-  }
-
-  &__msg {
-    &-btn {
-      &:hover {
-        border-color: var(--c-accent);
-        color: var(--c-accent);
-        transform: translateY(-2px);
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-      }
-    }
-  }
+.advantage-card:hover,
+.condition-card:hover,
+.team__card:hover {
+  transform: translateY(-4px);
 }
 
-.footer {
-  &__privacy {
-    &-link {
-      &:hover {
-        color: var(--c-accent);
-      }
-    }
-  }
-
-  &__socials a {
-    &:hover {
-      background: rgba(245, 158, 11, 0.2);
-      border-color: var(--c-accent);
-      color: var(--c-accent);
-    }
-  }
+.advantage-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+  border-color: rgba(245, 158, 11, 0.2);
 }
 
-.floating-cta {
-  &__btn {
-    &:hover {
-      transform: scale(1.1);
-      box-shadow: 0 12px 40px rgba(245, 158, 11, 0.4);
-    }
-  }
+.advantage-card:hover::before {
+  transform: scaleX(1);
 }
 
-.cookies {
-  &__btn {
-    &--accept {
-      &:hover {
-        background: var(--c-accent-hover);
-      }
-    }
-  }
+.condition-card:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
 }
 
-.cookies {
-  &__btn {
-    &--cancel {
-      &:hover {
-        color: var(--c-white);
-        border-color: rgba(255, 255, 255, 0.3);
-      }
-    }
-  }
+.faq__question:hover,
+.contacts__phone:hover,
+.footer__privacy-link:hover {
+  color: var(--c-accent);
 }
 
-.breadcrumbs {
-  a {
-    &:hover {
-      color: var(--c-accent);
-    }
-  }
+.team__card:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.06);
 }
 
-.privacy {
-  &__email {
-    &:hover {
-      color: var(--c-accent-hover);
-    }
-  }
+.contacts__msg-btn:hover {
+  border-color: var(--c-accent);
+  color: var(--c-accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
 }
 
-.btn-404 {
-  &--primary {
-    &:hover {
-      background: var(--c-accent-hover);
-      border-color: var(--c-accent-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px var(--c-accent-glow);
-    }
-  }
+.floating-cta__btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 40px rgba(245, 158, 11, 0.4);
+}
+
+.cookies__btn--accept:hover,
+.privacy__email:hover,
+.btn-404--primary:hover {
+  background: var(--c-accent-hover);
+}
+
+.cookies__btn--cancel:hover {
+  color: var(--c-white);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.breadcrumbs a:hover {
+  color: var(--c-accent);
+}
+
+.privacy__email:hover {
+  color: var(--c-accent-hover);
+}
+
+.btn-404--primary:hover {
+  border-color: var(--c-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px var(--c-accent-glow);
+}
+
+.btn-404--outline:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
 }
