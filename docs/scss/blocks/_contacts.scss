@@ -1,3 +1,7 @@
+// ===========================
+//   CONTACTS
+// ===========================
+
 .contacts {
   padding: 70px 0;
   background: var(--c-light);
@@ -56,20 +60,20 @@
     font-weight: 600;
     color: var(--c-text);
     transition: all var(--duration) var(--ease);
-  }
 
-  &__msg-btn--max &__max-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 22px;
-    height: 22px;
-    background: var(--c-accent);
-    color: var(--c-dark);
-    border-radius: 4px;
-    font-family: var(--f-heading);
-    font-size: 9px;
-    font-weight: 900;
+    &--max .contacts__max-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      background: var(--c-accent);
+      color: var(--c-dark);
+      border-radius: 4px;
+      font-family: var(--f-heading);
+      font-size: 9px;
+      font-weight: 900;
+    }
   }
 
   &__map {
