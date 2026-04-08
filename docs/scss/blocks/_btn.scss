@@ -1,0 +1,46 @@
+// ===========================
+//   BUTTONS
+// ===========================
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--f-body);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 14px 28px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all var(--duration) var(--ease);
+  white-space: nowrap;
+
+  &--primary {
+    background: var(--c-accent);
+    color: var(--c-dark);
+    border-color: var(--c-accent);
+  }
+
+  &--outline {
+    background: transparent;
+    color: var(--c-white);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+
+  &--white {
+    background: var(--c-white);
+    color: var(--c-dark);
+    border-color: var(--c-white);
+  }
+
+  &--lg {
+    padding: 16px 32px;
+    font-size: 16px;
+  }
+
+  &--full {
+    width: 100%;
+    justify-content: center;
+  }
+}
