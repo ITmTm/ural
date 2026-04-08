@@ -1,3 +1,7 @@
+// ===========================
+//   CTA BANNER
+// ===========================
+
 .cta-banner {
   padding: 0;
 
@@ -14,7 +18,7 @@
     margin: 0 24px;
 
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: -100px;
       right: -100px;
@@ -70,12 +74,12 @@
     border: 1px solid rgba(255, 255, 255, 0.12);
     color: var(--c-white);
     transition: all var(--duration) var(--ease);
-  }
 
-  &__msg--max {
-    font-family: var(--f-heading);
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
+    &--max {
+      font-family: var(--f-heading);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+    }
   }
 }
