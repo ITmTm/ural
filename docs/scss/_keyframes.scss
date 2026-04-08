@@ -1,11 +1,6 @@
-@keyframes bounce {
-  0%, 100% {
-    transform: translateX(-50%) translateY(0);
-  }
-  50% {
-    transform: translateX(-50%) translateY(10px);
-  }
-}
+// ===========================
+//   KEYFRAMES
+// ===========================
 
 @keyframes fadeInUp {
   from {
@@ -18,6 +13,15 @@
   }
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+}
+
 @keyframes pulse {
   0%, 100% {
     box-shadow: 0 8px 30px var(--c-accent-glow);
@@ -25,24 +29,4 @@
   50% {
     box-shadow: 0 8px 30px rgba(245, 158, 11, 0.45);
   }
-}
-
-@keyframes floatGlow {
-  0%, 100% { transform: translate(0, 0); }
-  50% { transform: translate(30px, -30px); }
-}
-
-@keyframes gradientShift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-
-@keyframes roadMove {
-  0% { transform: translateY(-50%) translateX(0); }
-  100% { transform: translateY(-50%) translateX(-40px); }
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
 }
