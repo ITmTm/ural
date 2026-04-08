@@ -15,10 +15,16 @@
     border-radius: var(--radius-sm);
     border: 1px solid var(--c-border-light);
     overflow: hidden;
-    transition: border-color var(--duration) var(--ease);
+    transition: border-color var(--duration) var(--ease),
+    opacity 0.8s var(--ease),
+    transform 0.8s var(--ease);
 
     &.active {
       border-color: var(--c-accent);
+
+      .faq__question svg {
+        transform: rotate(45deg);
+      }
     }
   }
 
@@ -44,10 +50,6 @@
       color: var(--c-accent);
       transition: transform var(--duration) var(--ease);
     }
-  }
-
-  &__item.active &__question svg {
-    transform: rotate(45deg);
   }
 
   &__answer {
