@@ -9,3 +9,4 @@ docs/scss/style.min.css.map
 /dist/*
 !/dist/.gitkeep
 .idea/
+gulpfile.js
