@@ -1,0 +1,37 @@
+// ===========================
+//   URAL GO PARK — VARIABLES
+// ===========================
+
+:root {
+  // Colors
+  --c-dark: #0d0f13;
+  --c-dark-2: #141720;
+  --c-dark-3: #1a1e2a;
+  --c-dark-4: #222738;
+  --c-light: #f4f5f7;
+  --c-light-2: #e8eaed;
+  --c-white: #ffffff;
+  --c-accent: #f59e0b;
+  --c-accent-hover: #d97706;
+  --c-accent-light: rgba(245, 158, 11, 0.12);
+  --c-accent-glow: rgba(245, 158, 11, 0.25);
+  --c-text: #1a1a2e;
+  --c-text-muted: #6b7280;
+  --c-text-light: rgba(255, 255, 255, 0.7);
+  --c-border: rgba(255, 255, 255, 0.08);
+  --c-border-light: #e5e7eb;
+
+  // Typography
+  --f-heading: 'Unbounded', sans-serif;
+  --f-body: 'Manrope', sans-serif;
+
+  // Sizing
+  --container: 1200px;
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-xs: 6px;
+
+  // Transitions
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 0.3s;
+}
