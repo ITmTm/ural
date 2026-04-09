@@ -1,20 +1,26 @@
+// ===========================
+//   RESET & BASE
+// ===========================
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-figure,
-picture {
-  margin: 0;
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--c-text);
+  background: var(--c-light);
+  overflow-x: hidden;
 }
 
 img {
@@ -24,27 +30,12 @@ img {
   display: block;
 }
 
-ul, ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-
 a {
   text-decoration: none;
   color: inherit;
   transition: var(--duration) var(--ease);
-  cursor: pointer;
 }
 
-.text-accent {
-  color: var(--c-accent);
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
+ul {
+  list-style: none;
 }
