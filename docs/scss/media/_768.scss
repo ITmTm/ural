@@ -13,7 +13,7 @@
     }
 
     &__content {
-      padding: 120px 24px 60px;
+      padding: 60px 24px;
     }
 
     &__subtitle {
@@ -99,6 +99,26 @@
   .contacts {
     &__phone {
       font-size: 22px;
+    }
+  }
+
+  .footer {
+    padding: 20px 0;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &__bottom {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &__privacy-link {
+      text-align: center;
     }
   }
 
