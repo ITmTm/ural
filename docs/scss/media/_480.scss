@@ -1,5 +1,9 @@
 @media (max-width: 480px) {
   .hero {
+    &__content {
+      padding: 24px;
+    }
+
     &__actions {
       flex-direction: column;
       margin-bottom: 20px;
@@ -36,6 +40,13 @@
         height: 46px;
         font-size: 16px;
       }
+    }
+  }
+
+  .cta-banner {
+    &__inner {
+      padding: 24px;
+      gap: 20px;
     }
   }
 
