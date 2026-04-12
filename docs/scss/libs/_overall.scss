@@ -44,3 +44,25 @@
     transform: translateY(0);
   }
 }
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--c-accent) var(--c-dark);
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--c-dark);
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--c-accent);
+  border-radius: 3px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: var(--c-accent-hover);
+}
