@@ -55,4 +55,37 @@
       transition: all var(--duration) var(--ease);
     }
   }
+
+  &__dev {
+    text-align: left;
+    padding-bottom: 20px;
+  }
+
+  &__dev-link {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.4);
+    transition: color var(--duration) var(--ease);
+    position: relative;
+
+    &:hover {
+      color: var(--c-accent);
+      text-shadow: 0 0 12px rgba(245, 158, 11, 0.6);
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--c-accent);
+      box-shadow: 0 0 8px var(--c-accent-glow);
+      transition: width 0.4s var(--ease);
+    }
+
+    &:hover::before {
+      width: 100%;
+    }
+  }
 }
