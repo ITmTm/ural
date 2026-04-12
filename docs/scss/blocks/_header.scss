@@ -57,6 +57,27 @@
     padding: 10px 20px;
     border-radius: 50px;
     transition: all var(--duration) var(--ease);
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -100%;
+      width: 40%;
+      height: 200%;
+      background: linear-gradient(
+              105deg,
+              transparent 20%,
+              rgba(255, 220, 100, 0.15) 35%,
+              rgba(255, 220, 100, 0.7) 50%,
+              rgba(255, 220, 100, 0.15) 65%,
+              transparent 80%
+      );
+      transform: skewX(-15deg);
+      animation: shimmer 3s infinite;
+    }
   }
 
   &__burger {
@@ -154,5 +175,26 @@
     padding: 14px 28px;
     border-radius: 50px;
     font-size: 16px;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -100%;
+      width: 40%;
+      height: 200%;
+      background: linear-gradient(
+              105deg,
+              transparent 20%,
+              rgba(255, 220, 100, 0.15) 35%,
+              rgba(255, 220, 100, 0.7) 50%,
+              rgba(255, 220, 100, 0.15) 65%,
+              transparent 80%
+      );
+      transform: skewX(-15deg);
+      animation: shimmer 3s infinite;
+    }
   }
 }
