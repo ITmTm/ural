@@ -153,12 +153,51 @@
     background: var(--c-accent);
     color: var(--c-dark);
     border-color: var(--c-accent);
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -100%;
+      width: 40%;
+      height: 200%;
+      background: linear-gradient(
+              105deg,
+              transparent 20%,
+              rgba(255, 220, 100, 0.15) 35%,
+              rgba(255, 220, 100, 0.7) 50%,
+              rgba(255, 220, 100, 0.15) 65%,
+              transparent 80%
+      );
+      transform: skewX(-15deg);
+      animation: shimmer 3s infinite;
+    }
+
+    &:hover {
+      background: var(--c-accent-hover);
+      border-color: var(--c-accent-hover);
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px);
+      -webkit-box-shadow: 0 8px 30px var(--c-accent-glow);
+      box-shadow: 0 8px 30px var(--c-accent-glow);
+    }
   }
 
   &--outline {
     background: transparent;
     color: var(--c-white);
     border-color: rgba(255, 255, 255, 0.2);
+
+    &:hover {
+      background: hsla(0, 0%, 100%, .1);
+      border-color: hsla(0, 0%, 100%, .5);
+      -webkit-transform: translateY(-2px);
+      -ms-transform: translateY(-2px);
+      transform: translateY(-2px);
+    }
   }
 }
 
