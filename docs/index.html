@@ -1,513 +1,604 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO & Open Graph -->
-    <meta name="title" content="Парк URAL GO Пермь — Подключение к Яндекс.Про">
-    <meta name="description" content="Подключение водителей к Яндекс.Про в Перми. Моментальные выплаты, комиссия от 1% с заказа или 99 ₽/сутки. Полное оформление документов.">
-    <meta name="keywords" content="такси Пермь, Яндекс такси, подключение водителей, URAL GO, таксопарк Пермь, Яндекс Про">
+  <!-- SEO & Open Graph -->
+  <meta name="description"
+        content="Подключение водителей к Яндекс.Про в Перми. Моментальные выплаты, комиссия от 1% с заказа или 99 ₽/сутки. Полное оформление документов.">
+  <meta name="keywords"
+        content="такси Пермь, Яндекс такси, подключение водителей, URAL GO, таксопарк Пермь, Яндекс Про">
 
-    <!-- Open Graph (Telegram, VK, WhatsApp, Facebook) -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://itmtm.github.io/ural/">
-    <meta property="og:title" content="Парк URAL GO Пермь — Подключение к Яндекс.Про">
-    <meta property="og:description" content="Моментальные выплаты, комиссия от 1%. Подключение к Яндекс.Про за один визит.">
-    <meta property="og:image" content="https://itmtm.github.io/ural/img/og-image.png">
-    <meta property="og:locale" content="ru_RU">
-    <meta property="og:site_name" content="URAL GO Park Perm">
+  <!-- Open Graph (Telegram, VK, WhatsApp, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ural-go.ru/">
+  <meta property="og:title" content="Парк URAL GO Пермь — Подключение к Яндекс.Про">
+  <meta property="og:description"
+        content="Моментальные выплаты, комиссия от 1%. Подключение к Яндекс.Про за один визит.">
+  <meta property="og:image" content="https://ural-go.ru/img/og-image.png">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="URAL GO Park Perm">
 
-    <!-- Twitter / X -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://itmtm.github.io/ural/">
-    <meta property="twitter:title" content="Парк URAL GO Пермь — Подключение к Яндекс.Про">
-    <meta property="twitter:description" content="Моментальные выплаты, комиссия от 1%. Подключение к Яндекс.Про за один визит.">
-    <meta property="twitter:image" content="https://itmtm.github.io/ural/img/og-image.png">
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://ural-go.ru/">
+  <meta property="twitter:title" content="Парк URAL GO Пермь — Подключение к Яндекс.Про">
+  <meta property="twitter:description"
+        content="Моментальные выплаты, комиссия от 1%. Подключение к Яндекс.Про за один визит.">
+  <meta property="twitter:image" content="https://ural-go.ru/img/og-image.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
-    <meta name="theme-color" content="#0d0f13">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+  <meta name="theme-color" content="#0d0f13">
 
-    <title>URAL GO Park Perm — Подключение к Яндекс.Про</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <title>URAL GO Park Perm — Подключение к Яндекс.Про</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header class="header" id="header">
-        <div class="container header__inner">
-            <a href="#" class="header__logo">
-                <img src="img/logo.png" alt="URAL GO Park Perm" class="header__logo-img">
-            </a>
-            <nav class="header__nav" id="nav">
-                <a href="#advantages" class="header__link" data-nav>Преимущества</a>
-                <a href="#how" class="header__link" data-nav>Как подключиться</a>
-                <a href="#conditions" class="header__link" data-nav>Условия</a>
-                <a href="#faq" class="header__link" data-nav>FAQ</a>
-                <a href="#team" class="header__link" data-nav>Команда</a>
-                <a href="#contacts" class="header__link" data-nav>Контакты</a>
-            </nav>
-            <a href="tel:+79082670067" class="header__cta">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                <span>Позвонить</span>
-            </a>
-            <button class="header__burger" id="burger" aria-label="Меню">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#hero" class="header__logo">
+      <img src="img/logo.png" alt="URAL GO Park Perm" class="header__logo-img">
+    </a>
+    <nav class="header__nav" id="nav">
+      <a href="#advantages" class="header__link" data-nav>Преимущества</a>
+      <a href="#how" class="header__link" data-nav>Как подключиться</a>
+      <a href="#conditions" class="header__link" data-nav>Условия</a>
+      <a href="#faq" class="header__link" data-nav>FAQ</a>
+      <a href="#team" class="header__link" data-nav>Команда</a>
+      <a href="#contacts" class="header__link" data-nav>Контакты</a>
+    </nav>
+    <a href="tel:+79082670067" class="header__cta">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+      <span>Позвонить</span>
+    </a>
+    <button class="header__burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
 
-    <!-- MOBILE MENU -->
-    <div class="mobile-menu" id="mobileMenu">
-        <div class="mobile-menu__inner">
-            <a href="#advantages" class="mobile-menu__link" data-nav>Преимущества</a>
-            <a href="#how" class="mobile-menu__link" data-nav>Как подключиться</a>
-            <a href="#conditions" class="mobile-menu__link" data-nav>Условия</a>
-            <a href="#faq" class="mobile-menu__link" data-nav>FAQ</a>
-            <a href="#team" class="mobile-menu__link" data-nav>Команда</a>
-            <a href="#contacts" class="mobile-menu__link" data-nav>Контакты</a>
-            <div class="mobile-menu__socials">
-                <a href="tel:+79082670067" class="mobile-menu__social-btn">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    Позвонить
-                </a>
-            </div>
-        </div>
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__inner">
+    <a href="#advantages" class="mobile-menu__link" data-nav>Преимущества</a>
+    <a href="#how" class="mobile-menu__link" data-nav>Как подключиться</a>
+    <a href="#conditions" class="mobile-menu__link" data-nav>Условия</a>
+    <a href="#faq" class="mobile-menu__link" data-nav>FAQ</a>
+    <a href="#team" class="mobile-menu__link" data-nav>Команда</a>
+    <a href="#contacts" class="mobile-menu__link" data-nav>Контакты</a>
+    <div class="mobile-menu__socials">
+      <a href="tel:+79082670067" class="mobile-menu__social-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Позвонить
+      </a>
     </div>
+  </div>
+</div>
 
-    <!-- HERO -->
-    <section class="hero" id="hero">
-        <div class="container hero__content">
-            <div class="hero__badge">г. Пермь &bull; Таксопарк</div>
-            <h1 class="hero__title">
-                Подключайся к <span class="hero__accent">Яндекс.Про</span> и зарабатывай
-            </h1>
-            <p class="hero__subtitle">Моментальные выплаты, комиссия от 1% с заказа или 99 ₽/сутки. Полное оформление документов — начни работать уже сегодня.</p>
-            <div class="hero__actions">
-                <a href="tel:+79082670067" class="btn btn--primary btn--lg">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    Позвонить сейчас
-                </a>
-                <a href="https://t.me/+79082670067" target="_blank" class="btn btn--outline btn--lg">
-                    <img src="icons/telegram.svg" alt="Телеграм"> Telegram
-                </a>
-            </div>
-            <div class="hero__messengers">
-                <a href="https://vk.ru/uralgo159" target="_blank" class="hero__messenger" title="ВКонтакте">
-                    <img src="icons/vk.svg" alt="ВКонтакте">
-                </a>
-                <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank" class="hero__messenger" title="Max">
-                    <img src="icons/max.svg" alt="Max">
-                </a>
-                <a href="https://wa.me/79082670067" target="_blank" class="cta-banner__msg" title="WhatsApp">
-                    <img src="icons/whatsapp.svg" alt="WhatsApp">
-                </a>
-            </div>
-        </div>
-        <div class="hero__scroll">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
-        </div>
-    </section>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="container hero__content">
+    <div class="hero__badge">г. Пермь &bull; Таксопарк</div>
+    <h1 class="hero__title">
+      Подключайся к <span class="hero__accent">Яндекс.Про</span> и зарабатывай
+    </h1>
+    <p class="hero__subtitle">Моментальные выплаты, комиссия от 1% с заказа или 99 ₽/сутки. Полное оформление документов
+      — начни работать уже сегодня.</p>
+    <div class="hero__actions">
+      <a href="tel:+79082670067" class="btn btn--primary btn--lg">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Позвонить сейчас
+      </a>
+      <a href="https://t.me/+79082670067" target="_blank" class="btn btn--outline btn--lg">
+        <img src="icons/telegram.svg" alt="Телеграм"> Telegram
+      </a>
+    </div>
+    <div class="hero__messengers">
+      <a href="https://vk.ru/uralgo159" target="_blank" class="hero__messenger" title="ВКонтакте">
+        <img src="icons/vk.svg" alt="ВКонтакте">
+      </a>
+      <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank"
+         class="hero__messenger" title="Max">
+        <img src="icons/max.svg" alt="Max">
+      </a>
+      <a href="https://wa.me/79082670067" target="_blank" class="cta-banner__msg" title="WhatsApp">
+        <img src="icons/whatsapp.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+  <div class="hero__scroll">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+    </svg>
+  </div>
+</section>
 
-    <!-- STATS TICKER -->
-    <section class="ticker">
-        <div class="ticker__track" id="tickerTrack">
-            <div class="ticker__items" id="tickerItems">
-                <span class="ticker__item"><strong>500+</strong> водителей подключено</span>
-                <span class="ticker__sep">&bull;</span>
-                <span class="ticker__item"><strong>от 1%</strong> комиссия</span>
-                <span class="ticker__sep">&bull;</span>
-                <span class="ticker__item"><strong>24/7</strong> поддержка</span>
-                <span class="ticker__sep">&bull;</span>
-                <span class="ticker__item"><strong>99 ₽/сутки</strong> фикс. тариф</span>
-                <span class="ticker__sep">&bull;</span>
-                <span class="ticker__item"><strong>Моментальные</strong> выплаты</span>
-                <span class="ticker__sep">&bull;</span>
-            </div>
-        </div>
-    </section>
+<!-- STATS TICKER -->
+<section class="ticker">
+  <div class="ticker__track" id="tickerTrack">
+    <div class="ticker__items" id="tickerItems">
+      <span class="ticker__item"><strong>500+</strong> водителей подключено</span>
+      <span class="ticker__sep">&bull;</span>
+      <span class="ticker__item"><strong>от 1%</strong> комиссия</span>
+      <span class="ticker__sep">&bull;</span>
+      <span class="ticker__item"><strong>24/7</strong> поддержка</span>
+      <span class="ticker__sep">&bull;</span>
+      <span class="ticker__item"><strong>99 ₽/сутки</strong> фикс. тариф</span>
+      <span class="ticker__sep">&bull;</span>
+      <span class="ticker__item"><strong>Моментальные</strong> выплаты</span>
+      <span class="ticker__sep">&bull;</span>
+    </div>
+  </div>
+</section>
 
-    <!-- ADVANTAGES -->
-    <section class="advantages" id="advantages">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-header__tag">Почему мы</span>
-                <h2 class="section-header__title">Ваши <span class="text-accent">преимущества</span> с нами</h2>
-            </div>
-            <div class="advantages__grid">
-                <div class="advantage-card advantage-card--featured">
-                    <div class="advantage-card__icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
-                    </div>
-                    <h3 class="advantage-card__title">Моментальные выплаты</h3>
-                    <p class="advantage-card__text">Получайте заработанные деньги сразу после выполнения заказа — без задержек и ожиданий.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-card__icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                    </div>
-                    <h3 class="advantage-card__title">Низкая комиссия</h3>
-                    <p class="advantage-card__text">Всего от 1% с заказа или фиксированная плата 99 ₽/сутки — выбирайте, что выгоднее.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-card__icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                    </div>
-                    <h3 class="advantage-card__title">Полный пакет документов</h3>
-                    <p class="advantage-card__text">Оформим все необходимые документы для работы в такси — вам нужен только паспорт и ВУ.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-card__icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                    </div>
-                    <h3 class="advantage-card__title">Быстрое подключение</h3>
-                    <p class="advantage-card__text">Подключение к таксометру Яндекс.Про за один визит — начните получать заказы в тот же день.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-card__icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                    </div>
-                    <h3 class="advantage-card__title">Поддержка 24/7</h3>
-                    <p class="advantage-card__text">Круглосуточная помощь по всем вопросам — мы всегда на связи в мессенджерах и по телефону.</p>
-                </div>
-                <div class="advantage-card">
-                    <div class="advantage-card__icon">
-                        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-                    </div>
-                    <h3 class="advantage-card__title">Надёжный парк</h3>
-                    <p class="advantage-card__text">Более 500 водителей уже работают с нами. Прозрачные условия, никаких скрытых платежей.</p>
-                </div>
-            </div>
+<!-- ADVANTAGES -->
+<section class="advantages" id="advantages">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__tag">Почему мы</span>
+      <h2 class="section-header__title">Ваши <span class="text-accent">преимущества</span> с нами</h2>
+    </div>
+    <div class="advantages__grid">
+      <div class="advantage-card advantage-card--featured reveal">
+        <div class="advantage-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+          </svg>
         </div>
-    </section>
+        <h3 class="advantage-card__title">Моментальные выплаты</h3>
+        <p class="advantage-card__text">Получайте заработанные деньги сразу после выполнения заказа — без задержек и
+          ожиданий.</p>
+      </div>
+      <div class="advantage-card reveal">
+        <div class="advantage-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+        </div>
+        <h3 class="advantage-card__title">Низкая комиссия</h3>
+        <p class="advantage-card__text">Всего от 1% с заказа или фиксированная плата 99 ₽/сутки — выбирайте, что
+          выгоднее.</p>
+      </div>
+      <div class="advantage-card reveal">
+        <div class="advantage-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+        </div>
+        <h3 class="advantage-card__title">Полный пакет документов</h3>
+        <p class="advantage-card__text">Оформим все необходимые документы для работы в такси — вам нужен только паспорт
+          и ВУ.</p>
+      </div>
+      <div class="advantage-card reveal">
+        <div class="advantage-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+        </div>
+        <h3 class="advantage-card__title">Быстрое подключение</h3>
+        <p class="advantage-card__text">Подключение к таксометру Яндекс.Про за один визит — начните получать заказы в
+          тот же день.</p>
+      </div>
+      <div class="advantage-card reveal">
+        <div class="advantage-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+        </div>
+        <h3 class="advantage-card__title">Поддержка 24/7</h3>
+        <p class="advantage-card__text">Круглосуточная помощь по всем вопросам — мы всегда на связи в мессенджерах и по
+          телефону.</p>
+      </div>
+      <div class="advantage-card reveal">
+        <div class="advantage-card__icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          </svg>
+        </div>
+        <h3 class="advantage-card__title">Надёжный парк</h3>
+        <p class="advantage-card__text">Более 500 водителей уже работают с нами. Прозрачные условия, никаких скрытых
+          платежей.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- HOW IT WORKS -->
-    <section class="how" id="how">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-header__tag">Процесс</span>
-                <h2 class="section-header__title">Как <span class="text-accent">подключиться</span></h2>
-            </div>
-            <div class="how__steps">
-                <div class="how__step">
-                    <div class="how__step-number">01</div>
-                    <div class="how__step-content">
-                        <h3 class="how__step-title">Свяжитесь с нами</h3>
-                        <p class="how__step-text">Позвоните или напишите в любой удобный мессенджер — мы ответим на все вопросы и назначим встречу.</p>
-                    </div>
-                </div>
-                <div class="how__step">
-                    <div class="how__step-number">02</div>
-                    <div class="how__step-content">
-                        <h3 class="how__step-title">Приходите на встречу</h3>
-                        <p class="how__step-text">Возьмите с собой паспорт и водительское удостоверение. Мы оформим все документы на месте.</p>
-                    </div>
-                </div>
-                <div class="how__step">
-                    <div class="how__step-number">03</div>
-                    <div class="how__step-content">
-                        <h3 class="how__step-title">Подписание договора</h3>
-                        <p class="how__step-text">Подписываем договор о сотрудничестве — всё прозрачно и официально.</p>
-                    </div>
-                </div>
-                <div class="how__step">
-                    <div class="how__step-number">04</div>
-                    <div class="how__step-content">
-                        <h3 class="how__step-title">Начинайте зарабатывать</h3>
-                        <p class="how__step-text">Подключаем вас к Яндекс.Про — вы сразу начинаете получать заказы и зарабатывать.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="how__cta">
-                <a href="tel:+79082670067" class="btn btn--primary btn--lg">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    Позвонить: +7 (908) 267-00-67
-                </a>
-            </div>
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__tag">Процесс</span>
+      <h2 class="section-header__title">Как <span class="text-accent">подключиться</span></h2>
+    </div>
+    <div class="how__steps">
+      <div class="how__step reveal">
+        <div class="how__step-number">01</div>
+        <div class="how__step-content">
+          <h3 class="how__step-title">Свяжитесь с нами</h3>
+          <p class="how__step-text">Позвоните или напишите в любой удобный мессенджер — мы ответим на все вопросы и
+            назначим встречу.</p>
         </div>
-    </section>
+      </div>
+      <div class="how__step reveal">
+        <div class="how__step-number">02</div>
+        <div class="how__step-content">
+          <h3 class="how__step-title">Приходите на встречу</h3>
+          <p class="how__step-text">Возьмите с собой паспорт и водительское удостоверение. Мы оформим все документы на
+            месте.</p>
+        </div>
+      </div>
+      <div class="how__step reveal">
+        <div class="how__step-number">03</div>
+        <div class="how__step-content">
+          <h3 class="how__step-title">Подписание договора</h3>
+          <p class="how__step-text">Подписываем договор о сотрудничестве — всё прозрачно и официально.</p>
+        </div>
+      </div>
+      <div class="how__step reveal">
+        <div class="how__step-number">04</div>
+        <div class="how__step-content">
+          <h3 class="how__step-title">Начинайте зарабатывать</h3>
+          <p class="how__step-text">Подключаем вас к Яндекс.Про — вы сразу начинаете получать заказы и зарабатывать.</p>
+        </div>
+      </div>
+    </div>
+    <div class="how__cta">
+      <a href="tel:+79082670067" class="btn btn--primary btn--lg">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Позвонить: +7 (908) 267-00-67
+      </a>
+    </div>
+  </div>
+</section>
 
-    <!-- CONDITIONS -->
-    <section class="conditions" id="conditions">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-header__tag">Тарифы</span>
-                <h2 class="section-header__title">Выгодные <span class="text-accent">условия</span></h2>
-            </div>
-            <div class="conditions__grid">
-                <div class="condition-card">
-                    <div class="condition-card__header">
-                        <span class="condition-card__label">Процент</span>
-                        <div class="condition-card__price">от 1<span>%</span></div>
-                        <span class="condition-card__period">с каждого заказа</span>
-                    </div>
-                    <ul class="condition-card__features">
-                        <li>Моментальные выплаты</li>
-                        <li>Полное оформление документов</li>
-                        <li>Подключение к Яндекс.Про</li>
-                        <li>Круглосуточная поддержка</li>
-                        <li>Идеально при большом потоке заказов</li>
-                    </ul>
-                    <a href="tel:+79082670067" class="btn btn--primary btn--full">Подключиться</a>
-                </div>
-                <div class="condition-card condition-card--popular">
-                    <div class="condition-card__badge">Популярный</div>
-                    <div class="condition-card__header">
-                        <span class="condition-card__label">Фиксированный</span>
-                        <div class="condition-card__price">99<span>₽</span></div>
-                        <span class="condition-card__period">в сутки</span>
-                    </div>
-                    <ul class="condition-card__features">
-                        <li>Моментальные выплаты</li>
-                        <li>Полное оформление документов</li>
-                        <li>Подключение к Яндекс.Про</li>
-                        <li>Круглосуточная поддержка</li>
-                        <li>Максимальная выгода при активной работе</li>
-                    </ul>
-                    <a href="tel:+79082670067" class="btn btn--primary btn--full">Подключиться</a>
-                </div>
-            </div>
+<!-- CONDITIONS -->
+<section class="conditions" id="conditions">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__tag">Тарифы</span>
+      <h2 class="section-header__title">Выгодные <span class="text-accent">условия</span></h2>
+    </div>
+    <div class="conditions__grid">
+      <div class="condition-card reveal">
+        <div class="condition-card__header">
+          <span class="condition-card__label">Процент</span>
+          <div class="condition-card__price">от 1<span>%</span></div>
+          <span class="condition-card__period">с каждого заказа</span>
         </div>
-    </section>
+        <ul class="condition-card__features">
+          <li>Моментальные выплаты</li>
+          <li>Полное оформление документов</li>
+          <li>Подключение к Яндекс.Про</li>
+          <li>Круглосуточная поддержка</li>
+          <li>Идеально при большом потоке заказов</li>
+        </ul>
+        <a href="tel:+79082670067" class="btn btn--primary btn--full">Подключиться</a>
+      </div>
+      <div class="condition-card condition-card--popular reveal">
+        <div class="condition-card__badge">Популярный</div>
+        <div class="condition-card__header">
+          <span class="condition-card__label">Фиксированный</span>
+          <div class="condition-card__price">99<span>₽</span></div>
+          <span class="condition-card__period">в сутки</span>
+        </div>
+        <ul class="condition-card__features">
+          <li>Моментальные выплаты</li>
+          <li>Полное оформление документов</li>
+          <li>Подключение к Яндекс.Про</li>
+          <li>Круглосуточная поддержка</li>
+          <li>Максимальная выгода при активной работе</li>
+        </ul>
+        <a href="tel:+79082670067" class="btn btn--primary btn--full">Подключиться</a>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- FAQ -->
-    <section class="faq" id="faq">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-header__tag">Вопросы</span>
-                <h2 class="section-header__title">Частые <span class="text-accent">вопросы</span></h2>
-            </div>
-            <div class="faq__list">
-                <div class="faq__item">
-                    <button class="faq__question">
-                        <span>Как подключиться к парку?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    </button>
-                    <div class="faq__answer">
-                        <p>Позвоните нам по телефону +7 (908) 267-00-67 или напишите в любой удобный мессенджер. Мы назначим встречу, на которой оформим все документы и подключим вас к Яндекс.Про.</p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <button class="faq__question">
-                        <span>Какие документы нужны?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    </button>
-                    <div class="faq__answer">
-                        <p>Для подключения потребуются паспорт и водительское удостоверение. Все остальные документы мы оформим за вас.</p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <button class="faq__question">
-                        <span>Как быстро происходят выплаты?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    </button>
-                    <div class="faq__answer">
-                        <p>Выплаты осуществляются моментально после выполнения заказа — деньги поступают на вашу карту без задержек.</p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <button class="faq__question">
-                        <span>Какой тариф выбрать?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    </button>
-                    <div class="faq__answer">
-                        <p>Если вы работаете активно и делаете много заказов — выгоднее фиксированный тариф 99 ₽/сутки. Если работаете несколько часов в день — процентный тариф от 1% может быть удобнее. Мы поможем подобрать оптимальный вариант.</p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <button class="faq__question">
-                        <span>Есть ли поддержка?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    </button>
-                    <div class="faq__answer">
-                        <p>Да, мы обеспечиваем круглосуточную поддержку по всем вопросам — по телефону и в мессенджерах.</p>
-                    </div>
-                </div>
-                <div class="faq__item">
-                    <button class="faq__question">
-                        <span>Нужно ли иметь свой автомобиль?</span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
-                    </button>
-                    <div class="faq__answer">
-                        <p>Да, для работы в такси необходим собственный автомобиль. Свяжитесь с нами — мы расскажем о требованиях к транспортному средству.</p>
-                    </div>
-                </div>
-            </div>
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__tag">Вопросы</span>
+      <h2 class="section-header__title">Частые <span class="text-accent">вопросы</span></h2>
+    </div>
+    <div class="faq__list">
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Как подключиться к парку?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Позвоните нам по телефону +7 (908) 267-00-67 или напишите в любой удобный мессенджер. Мы назначим встречу,
+            на которой оформим все документы и подключим вас к Яндекс.Про.</p>
         </div>
-    </section>
+      </div>
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Какие документы нужны?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Для подключения потребуются паспорт и водительское удостоверение. Все остальные документы мы оформим за
+            вас.</p>
+        </div>
+      </div>
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Как быстро происходят выплаты?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Выплаты осуществляются моментально после выполнения заказа — деньги поступают на вашу карту без
+            задержек.</p>
+        </div>
+      </div>
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Какой тариф выбрать?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Если вы работаете активно и делаете много заказов — выгоднее фиксированный тариф 99 ₽/сутки. Если работаете
+            несколько часов в день — процентный тариф от 1% может быть удобнее. Мы поможем подобрать оптимальный
+            вариант.</p>
+        </div>
+      </div>
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Есть ли поддержка?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Да, мы обеспечиваем круглосуточную поддержку по всем вопросам — по телефону и в мессенджерах.</p>
+        </div>
+      </div>
+      <div class="faq__item reveal">
+        <button class="faq__question">
+          <span>Нужно ли иметь свой автомобиль?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="5" x2="12" y2="19"/>
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+        <div class="faq__answer">
+          <p>Да, для работы в такси необходим собственный автомобиль. Свяжитесь с нами — мы расскажем о требованиях к
+            транспортному средству.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- TEAM -->
-    <section class="team" id="team">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-header__tag">Люди</span>
-                <h2 class="section-header__title">Наша <span class="text-accent">команда</span></h2>
-            </div>
-            <div class="team__grid">
-                <div class="team__card">
-                    <div class="team__photo">
-                        <div class="team__photo-placeholder">
-                            <img src="img/direktor.avif" alt="Директор">
-                        </div>
-                    </div>
-                    <h3 class="team__name">Директор парка</h3>
-                    <p class="team__role">Руководство и стратегия</p>
-                </div>
-                <div class="team__card">
-                    <div class="team__photo">
-                        <div class="team__photo-placeholder">
-                            <img src="img/pomoshchnik.avif" alt="Помощник">
-                        </div>
-                    </div>
-                    <h3 class="team__name">Помощник</h3>
-                    <p class="team__role">Подключение и документы</p>
-                </div>
-                <div class="team__card">
-                    <div class="team__photo">
-                        <div class="team__photo-placeholder">
-                            <img src="img/dispetcher.avif" alt="Диспетчер">
-                        </div>
-                    </div>
-                    <h3 class="team__name">Диспетчер</h3>
-                    <p class="team__role">Поддержка 24/7</p>
-                </div>
-            </div>
+<!-- TEAM -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__tag">Люди</span>
+      <h2 class="section-header__title">Наша <span class="text-accent">команда</span></h2>
+    </div>
+    <div class="team__grid">
+      <div class="team__card reveal">
+        <div class="team__photo">
+          <div class="team__photo-placeholder">
+            <img src="img/direktor.avif" alt="Директор">
+          </div>
         </div>
-    </section>
+        <h3 class="team__name">Директор парка</h3>
+        <p class="team__role">Руководство и стратегия</p>
+      </div>
+      <div class="team__card reveal">
+        <div class="team__photo">
+          <div class="team__photo-placeholder">
+            <img src="img/pomoshchnik.avif" alt="Помощник">
+          </div>
+        </div>
+        <h3 class="team__name">Помощник</h3>
+        <p class="team__role">Подключение и документы</p>
+      </div>
+      <div class="team__card reveal">
+        <div class="team__photo">
+          <div class="team__photo-placeholder">
+            <img src="img/dispetcher.avif" alt="Диспетчер">
+          </div>
+        </div>
+        <h3 class="team__name">Диспетчер</h3>
+        <p class="team__role">Поддержка 24/7</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <!-- CTA BANNER -->
-    <section class="cta-banner">
-        <div class="container">
-            <div class="cta-banner__inner">
-                <div class="cta-banner__content">
-                    <h2 class="cta-banner__title">Готовы начать зарабатывать?</h2>
-                    <p class="cta-banner__text">Позвоните нам или напишите в мессенджер — подключим вас к Яндекс.Про быстро и без лишних хлопот.</p>
-                </div>
-                <div class="cta-banner__actions">
-                    <a href="tel:+79082670067" class="btn btn--white btn--lg">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                        +7 (908) 267-00-67
-                    </a>
-                    <div class="cta-banner__messengers">
-                        <a href="https://t.me/+79082670067" target="_blank" class="cta-banner__msg">
-                            <img src="icons/telegram.svg" alt="Телеграм">
-                        </a>
-                        <a href="https://vk.ru/uralgo159" target="_blank" class="cta-banner__msg" title="ВКонтакте">
-                            <img src="icons/vk.svg" alt="ВКонтакте">
-                        </a>
-                        <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank" class="cta-banner__msg" title="Max">
-                            <img src="icons/max.svg" alt="Max">
-                        </a>
-                        <a href="https://wa.me/79082670067" target="_blank" class="cta-banner__msg" title="WhatsApp">
-                            <img src="icons/whatsapp.svg" alt="WhatsApp">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACTS -->
-    <section class="contacts" id="contacts">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-header__tag">Связь</span>
-                <h2 class="section-header__title">Свяжитесь <span class="text-accent">с нами</span></h2>
-            </div>
-            <div class="contacts__grid">
-                <div class="contacts__info">
-                    <div class="contacts__block">
-                        <h3 class="contacts__block-title">Телефон</h3>
-                        <a href="tel:+79082670067" class="contacts__phone">+7 (908) 267-00-67</a>
-                    </div>
-                    <div class="contacts__block">
-                        <h3 class="contacts__block-title">Город</h3>
-                        <p class="contacts__address">г. Пермь, ул. Докучаева, 50Л</p>
-                    </div>
-                    <div class="contacts__block">
-                        <h3 class="contacts__block-title">Мессенджеры</h3>
-                        <div class="contacts__messengers">
-                            <a href="https://t.me/+79082670067" target="_blank" class="contacts__msg-btn">
-                                <img src="icons/telegram.svg" alt="Телеграм"> Telegram
-                            </a>
-                            <a href="https://vk.ru/uralgo159" target="_blank" class="contacts__msg-btn" title="ВКонтакте">
-                                <img src="icons/vk.svg" alt="ВКонтакте"> VK
-                            </a>
-                            <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank" class="contacts__msg-btn contacts__msg-btn--max" title="Max">
-                                <img src="icons/max.svg" alt="Max"> MAX
-                            </a>
-                            <a href="https://wa.me/79082670067" target="_blank" class="contacts__msg-btn" title="WhatsApp">
-                                <img src="icons/whatsapp.svg" alt="WhatsApp"> WhatsApp
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="contacts__map">
-                    <iframe src="https://yandex.com/map-widget/v1/?ll=56.140186%2C58.032362&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTEwMjc2NTEzEj3QoNC-0YHRgdC40Y8sINCf0LXRgNC80YwsINGD0LvQuNGG0LAg0JTQvtC60YPRh9Cw0LXQstCwLCA1MNCbIgoNjY9gQhUjIWhC&z=17.05" width="100%" height="320" frameborder="0" allowfullscreen style="border-radius: 16px;"></iframe>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="container footer__inner">
-            <div class="footer__logo">
-                <img src="img/logo.png" alt="URAL GO Park Perm" class="footer__logo-img">
-            </div>
-            <div class="footer__info">
-                <p class="footer__copy">&copy; 2026 Парк URAL GO Пермь.</p>
-                <p class="footer__copy">&copy; Все права защищены.</p>
-                <p class="footer__copy">Информация на сайте не является публичной офертой.</p>
-            </div>
-            <div class="footer__socials">
-                <a href="https://t.me/+79082670067" target="_blank">
-                    <img src="icons/telegram.svg" alt="Телеграм">
-                </a>
-                <a href="https://vk.ru/uralgo159" target="_blank" title="ВКонтакте">
-                    <img src="icons/vk.svg" alt="ВКонтакте">
-                </a>
-                <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank" title="Max">
-                    <img src="icons/max.svg" alt="Max">
-                </a>
-                <a href="https://wa.me/79082670067" target="_blank" title="WhatsApp">
-                    <img src="icons/whatsapp.svg" alt="WhatsApp">
-                </a>
-            </div>
-        </div>
-        <div class="container">
-            <div class="footer__bottom">
-                <a href="privacy.html" class="footer__privacy-link">Политика конфиденциальности</a>
-                <a href="personal.html" class="footer__privacy-link">Согласие на обработку персональных данных</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- FLOATING CTA -->
-    <div class="floating-cta" id="floatingCta">
-        <a href="tel:+79082670067" class="floating-cta__btn" title="Позвонить">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-banner__inner">
+      <div class="cta-banner__content">
+        <h2 class="cta-banner__title">Готовы начать зарабатывать?</h2>
+        <p class="cta-banner__text">Позвоните нам или напишите в мессенджер — подключим вас к Яндекс.Про быстро и без
+          лишних хлопот.</p>
+      </div>
+      <div class="cta-banner__actions">
+        <a href="tel:+79082670067" class="btn btn--white btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +7 (908) 267-00-67
         </a>
-    </div>
-
-    <!-- COOKIES -->
-    <div class="cookies" id="cookieBanner">
-        <div class="cookies__text">
-            Мы используем файлы cookie.
-            <span>Продолжая навигацию по сайту, вы соглашаетесь на использование cookie-файлов.</span>
+        <div class="cta-banner__messengers">
+          <a href="https://t.me/+79082670067" target="_blank" class="cta-banner__msg">
+            <img src="icons/telegram.svg" alt="Телеграм">
+          </a>
+          <a href="https://vk.ru/uralgo159" target="_blank" class="cta-banner__msg" title="ВКонтакте">
+            <img src="icons/vk.svg" alt="ВКонтакте">
+          </a>
+          <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank"
+             class="cta-banner__msg" title="Max">
+            <img src="icons/max.svg" alt="Max">
+          </a>
+          <a href="https://wa.me/79082670067" target="_blank" class="cta-banner__msg" title="WhatsApp">
+            <img src="icons/whatsapp.svg" alt="WhatsApp">
+          </a>
         </div>
-        <div class="cookies__btns">
-            <button class="cookies__btn cookies__btn--accept" id="cookieAccept">Принять</button>
-            <button class="cookies__btn cookies__btn--cancel" id="cookieCancel">Отказаться</button>
-        </div>
+      </div>
     </div>
+  </div>
+</section>
 
-    <script src="js/script.js"></script>
+<!-- CONTACTS -->
+<section class="contacts" id="contacts">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-header__tag">Связь</span>
+      <h2 class="section-header__title">Свяжитесь <span class="text-accent">с нами</span></h2>
+    </div>
+    <div class="contacts__grid">
+      <div class="contacts__info">
+        <div class="contacts__block reveal">
+          <h3 class="contacts__block-title">Телефон</h3>
+          <a href="tel:+79082670067" class="contacts__phone">+7 (908) 267-00-67</a>
+        </div>
+        <div class="contacts__block reveal">
+          <h3 class="contacts__block-title">Город</h3>
+          <p class="contacts__address">г. Пермь, ул. Докучаева, 50Л</p>
+        </div>
+        <div class="contacts__block reveal">
+          <h3 class="contacts__block-title">Мессенджеры</h3>
+          <div class="contacts__messengers">
+            <a href="https://t.me/+79082670067" target="_blank" class="contacts__msg-btn">
+              <img src="icons/telegram.svg" alt="Телеграм"> Telegram
+            </a>
+            <a href="https://vk.ru/uralgo159" target="_blank" class="contacts__msg-btn" title="ВКонтакте">
+              <img src="icons/vk.svg" alt="ВКонтакте"> VK
+            </a>
+            <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank"
+               class="contacts__msg-btn contacts__msg-btn--max" title="Max">
+              <img src="icons/max.svg" alt="Max"> MAX
+            </a>
+            <a href="https://wa.me/79082670067" target="_blank" class="contacts__msg-btn" title="WhatsApp">
+              <img src="icons/whatsapp.svg" alt="WhatsApp"> WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="contacts__map">
+        <iframe
+          src="https://yandex.com/map-widget/v1/?ll=56.140186%2C58.032362&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTEwMjc2NTEzEj3QoNC-0YHRgdC40Y8sINCf0LXRgNC80YwsINGD0LvQuNGG0LAg0JTQvtC60YPRh9Cw0LXQstCwLCA1MNCbIgoNjY9gQhUjIWhC&z=17.05"
+          width="100%" height="320" frameborder="0" allowfullscreen style="border-radius: 16px;"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__logo">
+      <img src="img/logo.png" alt="URAL GO Park Perm" class="footer__logo-img">
+    </div>
+    <div class="footer__info">
+      <p class="footer__copy">&copy; 2026 Парк URAL GO Пермь.</p>
+      <p class="footer__copy">&copy; Все права защищены.</p>
+      <p class="footer__copy">Информация на сайте не является публичной офертой.</p>
+    </div>
+    <div class="footer__socials">
+      <a href="https://t.me/+79082670067" target="_blank">
+        <img src="icons/telegram.svg" alt="Телеграм">
+      </a>
+      <a href="https://vk.ru/uralgo159" target="_blank" title="ВКонтакте">
+        <img src="icons/vk.svg" alt="ВКонтакте">
+      </a>
+      <a href="https://max.ru/u/f9LHodD0cOKILXlwguAKKqx_fc4QhYaxi49-6UHn_0RdK_PmEsTAEAKjDtM" target="_blank"
+         title="Max">
+        <img src="icons/max.svg" alt="Max">
+      </a>
+      <a href="https://wa.me/79082670067" target="_blank" title="WhatsApp">
+        <img src="icons/whatsapp.svg" alt="WhatsApp">
+      </a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer__bottom">
+      <a href="/privacy" class="footer__privacy-link">Политика конфиденциальности</a>
+      <a href="/personal" class="footer__privacy-link">Согласие на обработку персональных данных</a>
+    </div>
+    <div class="footer__dev">
+      <a href="https://github.com/ITmTm" target="_blank" class="footer__dev-link">
+        ⚡ Разработано by &nbsp;ITmTm
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING CTA -->
+<div class="floating-cta" id="floatingCta">
+  <a href="tel:+79082670067" class="floating-cta__btn" title="Позвонить">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path
+        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+  </a>
+</div>
+
+<!-- COOKIES -->
+<div class="cookies" id="cookieBanner">
+  <div class="cookies__text">
+    Мы используем файлы cookie.
+    <span>Продолжая навигацию по сайту, вы соглашаетесь на использование cookie-файлов.</span>
+  </div>
+  <div class="cookies__btns">
+    <button class="cookies__btn cookies__btn--accept" id="cookieAccept">Принять</button>
+    <button class="cookies__btn cookies__btn--cancel" id="cookieCancel">Отказаться</button>
+  </div>
+</div>
+
+<script src="js/script.min.js"></script>
 </body>
 </html>
