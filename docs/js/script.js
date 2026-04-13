@@ -1,7 +1,3 @@
-// ===========================
-// URAL GO PARK — Scripts
-// ===========================
-
 document.addEventListener('DOMContentLoaded', () => {
     // --- Header scroll ---
     const header = document.getElementById('header');
@@ -82,11 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // --- Scroll reveal ---
-    const revealElements = document.querySelectorAll(
-        '.advantage-card, .how__step, .condition-card, .faq__item, .team__card, .contacts__block, .contacts__map-placeholder'
-    );
-
-    revealElements.forEach(el => el.classList.add('reveal'));
+    const revealElements = document.querySelectorAll('.reveal');
 
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
@@ -95,10 +87,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 revealObserver.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    }, { threshold: 0.1, rootMargin: '0px 0px -100px 0px' });
 
     revealElements.forEach((el, i) => {
-        el.style.transitionDelay = `${(i % 4) * 0.1}s`;
+        el.style.transitionDelay = `${(i % 6) * 0.15}s`;
         revealObserver.observe(el);
     });
 
