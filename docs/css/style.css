@@ -1385,13 +1385,13 @@ ul {
 
 
 
-   /* Privacy page specific styles */
- .privacy-page {
-   padding-top: 100px;
-   padding-bottom: 80px;
-   background: var(--c-white);
-   min-height: calc(100vh - 200px);
- }
+/* Privacy page specific styles */
+.privacy-page {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: var(--c-white);
+  min-height: calc(100vh - 200px);
+}
 
 .breadcrumbs {
   display: flex;
