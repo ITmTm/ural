@@ -3,9 +3,9 @@
 /app/images/*
 !/app/images/src
 package-lock.json
-/app/js/main.min.js
+/docs/js/main.min.js
 /app/css
-docs/scss/style.min.css.map
+docs/css/style.min.css.map
 /dist/*
 !/dist/.gitkeep
 .idea/
