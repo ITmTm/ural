@@ -1,0 +1,29 @@
+// Libs
+@use "libs/variables";
+@use "libs/reset";
+@use "libs/overall";
+
+// Keyframes & Hovers
+@use "keyframes";
+@use "hovers";
+
+// Blocks
+@use "blocks/btn";
+@use "blocks/header";
+@use "blocks/hero";
+@use "blocks/ticker";
+@use "blocks/advantages";
+@use "blocks/how";
+@use "blocks/conditions";
+@use "blocks/faq";
+@use "blocks/team";
+@use "blocks/cta-banner";
+@use "blocks/contacts";
+@use "blocks/footer";
+@use "blocks/floating-cta";
+@use "blocks/cookies";
+@use "blocks/privacy-page";
+@use "blocks/page-404";
+
+// Media
+@use "media/index";
